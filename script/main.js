@@ -23,11 +23,10 @@ const fetchData = () => {
       });
     });
 };
-
+var audio = new Audio('https://drive.google.com/file/d/11iB9Mpv3IBDVoqgoS7jWUIKSpz1FOXWw/view?usp=sharing');
+audio.play();
 // Animation Timeline
 const animationTimeline = () => {
-  var audio = new Audio('https://drive.google.com/file/d/11iB9Mpv3IBDVoqgoS7jWUIKSpz1FOXWw/view?usp=sharing');
-  audio.play();
   // Spit chars that needs to be animated individually
   const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
   const hbd = document.getElementsByClassName("wish-hbd")[0];
