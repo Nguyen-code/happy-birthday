@@ -23,8 +23,6 @@ const fetchData = () => {
       });
     });
 };
-var audio = new Audio('https://drive.google.com/file/d/11iB9Mpv3IBDVoqgoS7jWUIKSpz1FOXWw/view?usp=sharing');
-audio.play();
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
